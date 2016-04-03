@@ -10,6 +10,8 @@ repositories {
 
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.12.0-M3-dc9effe'
+    compile 'org.scala-lang:scala-library:2.12.0-M3'
+    compile 'org.scalafx:scalafx_2.11:8.0.60-R9'
+
 
 }

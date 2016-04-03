@@ -20,7 +20,7 @@ object Main {
 
   def main(args: Array[String]) {
 
-    var base = 2
+   /* var base = 2
 
     val path = "F:\\MEGA\\IdeaProjects\\huffman_scala\\"
 
@@ -34,7 +34,14 @@ object Main {
     println("----------")
 
     val decoder = new HuffmanAdaptiveDecoder(fout, fout2, base)
-    decoder.execute()
+    decoder.execute()*/
+
+
+
+    "" match {
+      case Util.numeric(s) => print("ssdsd")
+      case _ =>
+    }
 
 
 /*    var list = ArrayBuffer(1,2,3)

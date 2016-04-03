@@ -8,5 +8,6 @@ object BusinessConstant {
   val RESET_VALUE: Int = 262144
   val NR_CHAR: Int = 257
   val EOF: Int = 256
+  val EXTENSION_HUFF = "huff"
 
 }

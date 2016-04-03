@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scalafx:scalafx_2.11:8.0.60-R9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalafx/scalafx_2.11/8.0.60-R9/d4bec7fac56715090e61907195a1fc06895b4a2c/scalafx_2.11-8.0.60-R9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalafx/scalafx_2.11/8.0.60-R9/5ecbfa638a5f1e5546a396e7ac71b1b6bb888c0d/scalafx_2.11-8.0.60-R9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
