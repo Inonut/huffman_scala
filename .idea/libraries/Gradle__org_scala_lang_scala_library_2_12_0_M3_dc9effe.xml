@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scala-lang:scala-library:2.12.0-M3-dc9effe" type="Scala">
+    <properties>
+      <option name="languageLevel" value="Scala_2_12" />
+      <compiler-classpath>
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.12.0-M3-dc9effe/141c53935a0521027ee46e204787520fa2429dab/scala-compiler-2.12.0-M3-dc9effe.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M3-dc9effe/d686f1308cede599a74fdc24036b542dcc184b0c/scala-library-2.12.0-M3-dc9effe.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.0-M3-dc9effe/26c2a6b17d2958d1e7a11b7284c257c86f7fff2a/scala-reflect-2.12.0-M3-dc9effe.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12.0-M3-dc9effe/1.0.5/b2ea17eacd9c7dbee0651ff6f0e119f02dac5ea2/scala-xml_2.12.0-M3-dc9effe-1.0.5.jar" />
+        <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.12.0-M3-dc9effe/1.0.4/df2cd613bd20c31f4262278ec22f0dd40c1c1829/scala-parser-combinators_2.12.0-M3-dc9effe-1.0.4.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M3-dc9effe/d686f1308cede599a74fdc24036b542dcc184b0c/scala-library-2.12.0-M3-dc9effe.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M3-dc9effe/b4715f6abbcf25a766e9b207f6fec7160e57528a/scala-library-2.12.0-M3-dc9effe-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
