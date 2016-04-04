@@ -1,13 +1,9 @@
 package huffman
 
-import java.io.{BufferedInputStream, File, FileInputStream}
-
-import huffman.algorithm.impl.{HuffmanAdaptiveDecoder, HuffmanAdaptiveEncoder}
-import huffman.domain.{InternalNode, Leaf}
-import huffman.util.{BitInputStream, BusinessConstant, Util}
-
-import scala.collection.mutable.{ArrayBuffer, ListBuffer}
-import scala.io.Source
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.async.Async.{async, await}
+import scala.concurrent.duration._
+import scala.concurrent.{Await, Future}
 
 /**
   * Created by Dragos on 02.04.2016.
@@ -36,12 +32,20 @@ object Main {
     val decoder = new HuffmanAdaptiveDecoder(fout, fout2, base)
     decoder.execute()*/
 
+    def slowCalcFuture: Future[Int] = async {
+      Thread.sleep(1000)
+      56
+    }
+
+    val x: Int = Await.result(slowCalcFuture, Duration.Inf)
+
+    print(x)
 
 
-    "" match {
+    /*"" match {
       case Util.numeric(s) => print("ssdsd")
       case _ =>
-    }
+    }*/
 
 
 /*    var list = ArrayBuffer(1,2,3)
